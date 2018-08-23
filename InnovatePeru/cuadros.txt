@@ -1,0 +1,126 @@
+<h3>D.1.1 CUADRO Nº 1: Equipos y Bienes duraderos</h3>
+
+    <td>Id </td>
+    <td>Valorizable </td>
+    <td>Equipos y Bienes duraderos </td>
+    <td>Especificación técnica </td>
+    <td>Proforma </td>
+    <td>Unidad de medida </td>
+    <td>Costo Unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento NO monetario </td>
+    <td>Entidad Aportante </td>
+
+<h3>D.1.2 CUADRO Nº 2: Honorarios de los Recursos Humanos - Valorización del equipo Técnico</h3>
+
+    <td>Id </td>
+    <td>Nombre </td>
+    <td>Entidad </td>
+    <td>Porcentaje de dedicación </td>
+    <td>Honorario mensual </td>
+    <td>No. Meses </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento no monetario </td>
+    <td>Entidad Aportante</td>
+
+<h3>D.1.3 CUADRO Nº 3: Consultorías</h3>
+
+    <td>Id </td>
+    <td>Descripción </td>
+    <td>Unidad Medida </td>
+    <td>Costo unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento no monetario </td>
+    <td>Entidad Aportante</td>
+
+<h3>D.1.4 CUADRO Nº 4: Servicios de terceros</h3>
+
+    <td>Id </td>
+    <td>Descripción </td>
+    <td>Unidad de medida </td>
+    <td>Costo Unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento NO monetario </td>
+    <td>Entidad Aportante</td>
+
+<h3>D.1.5 CUADRO Nº 5: Pasajes y viáticos</h3>
+
+    <td>Id </td>
+    <td>Tipo </td>
+    <td>Tipo de viático </td>
+    <td>Tipo de Actividad </td>
+    <td>Destino </td>
+    <td>Descripción </td>
+    <td>Unidad de medida </td>
+    <td>Costo Unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento NO monetario </td>
+    <td>Entidad Aportante</td>
+
+<h3>D.1.6 CUADRO Nº 6: Materiales e insumos</h3>
+
+    <td>Id </td>
+    <td>Valorizable </td>
+    <td>Descripción </td>
+    <td>Especificación técnica </td>
+    <td>Proforma </td>
+    <td>Unidad Medida </td>
+    <td>Costo unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento no monetario </td>
+    <td>Entidad Aportante</td>
+
+<h3>D.1.7 CUADRO Nº 7: Otros gastos elegibles</h3>
+
+    <td>Id </td>
+    <td>Valorizable </td>
+    <td>Descripción </td>
+    <td>Unidad Medida </td>
+    <td>Costo unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento no monetario </td>
+    <td>Entidad Aportante</td>
+
+<h3>D.1.8 CUADRO Nº8: Gastos de gestión</h3>
+
+    <td>Id </td>
+    <td>Descripción </td>
+    <td>Unidad Medida </td>
+    <td>Costo unitario </td>
+    <td>Cantidad </td>
+    <td>Costo Total </td>
+    <td>RNR </td>
+    <td>Cofinanciamiento monetario </td>
+    <td>Cofinanciamiento no monetario </td>
+    <td>Entidad Aportante </td>
+
+<h3>D.1.9 Equipo Formulador del Proyecto</h3>
+
+    <td>Id </td>
+    <td>Tipo de Documento </td>
+    <td>Número de Documento </td>
+    <td>Nombres </td>
+    <td>Apellidos </td>
+    <td>Correo </td>
+    <td>Teléfono </td>
+    <td>Celular </td>
