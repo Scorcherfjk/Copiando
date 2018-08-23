@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Registro de proyectos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>A - Identificacion de Entidades Participante</h1>
+        <h3>A.1 - Datos generales del proyecto</h3>
+        <div class="form-group">
+            <label class="h6" for="titulo">A.1.1 - Titulo</label>
+            <input id="titulo" class="form-control" type="textarea">
+        </div>
+        <div class="form-group">
+            <label class="h6" for="palabrasClave">A.1.2 - Palabras clave</label>
+            <input id="palabrasClave" class="form-control" type="text">
+        </div>
+        <h6>A.1.3 - Area de innovacion</h6>
+        <table class="table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Id</th>
+                    <td>Area</td>
+                    <td>Sub-area</td>
+                    <td>Area tematica</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tecnologia</td>
+                    <td>Sistemas</td>
+                    <td>Informatica</td>
+                </tr>   
+            </tbody>
+        </table>
+        <h6>A.1.4 - actividad economica en la que se aplicara la innovacion</h6>
+        <table class="table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Id</th>
+                    <td>Area de aplicacion</td>
+                    <td>Sub-area de aplicacion</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tecnologia</td>
+                    <td>Sistemas</td>
+                </tr>   
+            </tbody>
+        </table>
+        <h6>A.1.5 - localizacion del proyecto</h6>
+        <table class="table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Id</th>
+                    <td>Departamento</td>
+                    <td>Provincia</td>
+                    <td>Distrito</td>
+                    <td>Ubigeo</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lima</td>
+                    <td>Lima</td>
+                    <td>Miraflores</td>
+                    <td>150122</td>
+                </tr>   
+            </tbody>
+        </table>
+        <div class="form-group">
+            <label class="h6" for="duracionDelProyecto">A.1.6 - Duracion del proyecto</label>
+            <input id="duracionDelProyecto" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+            <label class="h6" for="fechaEstimadaDeInicioDelProyecto">A.1.7 - Fecha estimada de inicio del proyecto</label>
+            <input id="fechaEstimadaDeInicioDelProyecto" class="form-control" type="date">
+        </div>
+        <h5>A.1.8 - Datos del coordinador general del proyecto</h5>
+            <div class="form-group">
+                <label for="tipoDeDocumento">Tipo de documento</label>
+                <input id="tipoDeDocumento" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="numeroDeDocumento">Numero de documento</label>
+                <input id="numeroDeDocumento" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="nombresYApellidos">Nombres y Apellidos</label>
+                <input id="nombresYApellidos" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input id="email" class="form-control" type="email">
+            </div>
+            <div class="form-group">
+                <label for="fechaDeNacimiento">fecha de nacimiento</label>
+                <input id="fechaDeNacimiento" class="form-control" type="date">
+            </div>
+            <div class="form-group">
+                <label for="sexo">sexo</label>
+                <input id="sexo" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="ruc">RUC</label>
+                <input id="ruc" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input id="telefono" class="form-control" type="number">
+            </div>  
+            <div class="form-group">
+                <label for="celular">Celular</label>
+                <input id="celular" class="form-control" type="number">
+            </div>
+        <h5>A.1.9 - Datos del coordinador administrativo del proyecto</h5>
+            <div class="form-group">
+                <label for="tipoDeDocumento">Tipo de documento</label>
+                <input id="tipoDeDocumento" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="numeroDeDocumento">Numero de documento</label>
+                <input id="numeroDeDocumento" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="nombresYApellidos">Nombres y Apellidos</label>
+                <input id="nombresYApellidos" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input id="email" class="form-control" type="email">
+            </div>
+            <div class="form-group">
+                <label for="fechaDeNacimiento">fecha de nacimiento</label>
+                <input id="fechaDeNacimiento" class="form-control" type="date">
+            </div>
+            <div class="form-group">
+                <label for="sexo">sexo</label>
+                <input id="sexo" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="ruc">RUC</label>
+                <input id="ruc" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input id="telefono" class="form-control" type="number">
+            </div>  
+            <div class="form-group">
+                <label for="celular">Celular</label>
+                <input id="celular" class="form-control" type="number">
+            </div>
+        <h3>A.2 - Datos de las entidades participantes</h3>
+        <h5>A.2.1 - Entidad solicitante</h5>
+            <div class="form-group">
+                <label for="tipoDeEntidad">Tipo de entidad</label>
+                <input id="tipoDeEntidad" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="tamanoDeLaEmpresa">Tamaño de la empresa</label>
+                <input id="tamanoDeLaEmpresa" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="rucRazonSocial">RUC y Razon social</label>
+                <input id="rucRazonSocial" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="ciiu">CIIU</label>
+                <input id="ciiu" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="direccion">Direccion</label>
+                <input id="direccion" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="fechaDeConstitucion">Fecha de Constitucion</label>
+                <input id="fechaDeConstitucion" class="form-control" type="date">
+            </div>
+            <div class="form-group">
+                <label for="inicioDeActividades">Inicio de actividades</label>
+                <input id="inicioDeActividades" class="form-control" type="date">
+            </div>
+            <div class="form-group">
+                <label for="numeroDePartida">Numero de partida</label>
+                <input id="numeroDePartida" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="oficinaRegistral">Oficina registral</label>
+                <input id="oficinaRegistral" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="telefonoCelular">Telefono / Celular</label>
+                <input id="telefonoCelular" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input id="email" class="form-control" type="email">
+            </div>
+            <div class="form-group">
+                <label for="paginaWeb">Pagina Web</label>
+                <input id="paginaWeb" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="ventas2016">Ventas del año 2016</label>
+                <input id="ventas2016" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="ventas2017">Ventas del año 2017</label>
+                <input id="ventas2017" class="form-control" type="number">
+            </div>
+            <div class="form-group">
+                <label for="nroDeTrabajadores">Numero de Trabajadores</label>
+                <input id="nroDeTrabajadores" class="form-control" type="number">
+            </div>
+            <h5>Representante legal</h5>
+                <div class="form-group">
+                    <label for="tipoDeDocumento">Tipo de documento</label>
+                    <input id="tipoDeDocumento" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="numeroDeDocumento">Numero de documento</label>
+                    <input id="numeroDeDocumento" class="form-control" type="number">
+                </div>
+                <div class="form-group">
+                    <label for="nombresYApellidos">Nombres y Apellidos</label>
+                    <input id="nombresYApellidos" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="sexo">sexo</label>
+                    <input id="sexo" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electronico</label>
+                    <input id="email" class="form-control" type="email">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" class="form-control" type="number">
+                </div>
+                <div class="form-group">
+                    <label for="ruc">RUC</label>
+                    <input id="ruc" class="form-control" type="number">
+                </div>
+                <div class="form-group">
+                    <label for="productosComerciales">Indicar los productos ( Bienes y Servicios ) que en en la actualidad comercializa</label>
+                    <textarea id="productosComerciales" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="actividadesRelacionadas">Principales actividades, investigaciones, tecnologias relacionadas con el proyecto</label>
+                    <textarea id="actividadesRelacionadas" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="infraestructuraDelSolicitante">Infraestructura fisica, equipamiento, tecnologias y procesos de la entidad solicitante</label>
+                    <textarea id="infraestructuraDelSolicitante" class="form-control" rows="3"></textarea>
+                </div>
+                <h6> A.2.2 - entidades asociadas</h6>
+                    <table class="table table-hover">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Id</th>
+                                <td>ruc</td>
+                                <td>nombre de la entidad</td>
+                                <td>tipo de entidad</td>
+                                <td>tipo de relacion</td>
+                                <td>nombre completo</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Lima</td>
+                                <td>Lima</td>
+                                <td>Miraflores</td>
+                                <td>150122</td>
+                                <td>Ubigeo</td>
+                            </tr>   
+                        </tbody>
+                    </table>
+        <h3>A.3 - antecedentes de las entidades participantes</h3>
+            <h6>A.3.1 - Principales actividades, investigaciones, tecnologias relacionadas con el proyecto</h6>
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Id</th>
+                            <td>nombre de la entidad</td>
+                            <td>principales actividades y experiencia</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Lima</td>
+                            <td>Lima</td>
+                        </tr>   
+                    </tbody>
+                </table>
+            <h6>A.3.2 - Principales actividades, investigaciones, tecnologias y procesos que se aportaran al proyecto</h6>
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Id</th>
+                            <td>nombre de la entidad</td>
+                            <td>principal infraestructura fisica</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Lima</td>
+                            <td>Lima</td>
+                        </tr>   
+                    </tbody>
+                </table>
+            <h6>A.3.3 - Principales aspectos que evidencien que la entidad se beneficiara con los resultados</h6>
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Id</th>
+                            <td>nombre de la entidad</td>
+                            <td>justificacion para contar con la entidad</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Lima</td>
+                            <td>Lima</td>
+                        </tr>   
+                    </tbody>
+                </table>
+            <h6>A.3.4 - Fondos recibidos por alguna entidad del estado hacia la entidad solicitante</h6>
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Id</th>
+                            <td>nombre del otorgante</td>
+                            <td>nombre del proyecto</td>
+                            <td>monto</td>
+                            <td>fecha de reposicion</td>
+                            <td>fecha de finalizacion</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Lima</td>
+                            <td>Lima</td>
+                            <td>monto</td>
+                            <td>fecha de reposicion</td>
+                            <td>fecha de finalizacion</td>
+                        </tr>   
+                    </tbody>
+                </table>
+            <h6>A.3.5 - Situacion de los proyectos financiados por innovate peru ( PIMEN, PIPEI, PITEI, PIPEA )</h6>
+                <table class="table table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Id</th>
+                            <td>contrato</td>
+                            <td>titulo</td>
+                            <td>aporte RNR</td>
+                            <td>fecha inicio</td>
+                            <td>fecha fin</td>
+                            <td>estado</td>
+                            <td>situacion actual</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Lima</td>
+                            <td>Lima</td>
+                            <td>monto</td>
+                            <td>fecha de reposicion</td>
+                            <td>fecha de finalizacion</td>
+                            <td>estado</td>
+                            <td>situacion actual</td>
+                        </tr>   
+                    </tbody>
+                </table>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
