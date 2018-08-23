@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Registro de proyectos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>C - memoria tecnica</h1>
+        <h3>C.1 Diagnóstico</h3>
+            <div class="form-group">
+                <label for="problemaIdentificado">C.1.1 Problema identificado que limita la competitividad de la empresa u oportunidad de mercado</label>
+                <textarea id="problemaIdentificado" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="consecuenciasEfectos">C.1.2 Consecuencias o efectos</label>
+                <textarea id="consecuenciasEfectos" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="causas">C.1.3 Causas</label>
+                <textarea id="causas" class="form-control" rows="3"></textarea>
+            </div>
+            <h6>C.1.4. Tipo de innovación y descripción</h6>
+            <div class="form-group">
+                <label for="tipoDeInnovación">Tipo de Innovación</label>
+                <input id="tipoDeInnovación" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="describirFuncion">1. Describir la función que realizará la innovación</label>
+                <textarea id="describirFuncion" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="describirTecnologia">2. Describir la tecnología que se empleará para construir la innovación</label>
+                <textarea id="describirTecnologia" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="describirForma">3. Describa la forma en que se entregará el resultado</label>
+                <textarea id="describirForma" class="form-control" rows="3"></textarea>
+            </div>
+        <h3>C.2 Descripción de las características de producto o proceso de la innovación presentada</h3>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Id</th>
+                        <td>atributo</td>
+                        <td>competidor 1</td>
+                        <td>competidor 2</td>
+                        <td>competidor 3</td>
+                        <td>propuesta de proyecto</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>atributo</td>
+                        <td>competidor 1</td>
+                        <td>competidor 2</td>
+                        <td>competidor 3</td>
+                        <td>propuesta de proyecto</td>
+                    </tr>   
+                </tbody>
+            </table>
+        <h3>C.3 Antecedentes e Investigaciones recientes sobre la innovación a desarrollar</h3>
+            <div class="form-group">
+                <label for="antecedentes">C.3.1 Antecedentes e investigaciones recientes sobre el problema a resolver</label>
+                <textarea id="antecedentes" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="libreRestrigido">C.3.2 Indicar si el conocimiento o la tecnología que se utilizará son de uso libre o restringido</label>
+                <textarea id="libreRestrigido" class="form-control" rows="3"></textarea>
+            </div>
+        <h3>C.4 Objetivos</h3>
+        <h6>C.4.1 Objetivo general, específicos y resultados del proyecto</h6>
+            <label for="objetivoGeneral">Objetivo General</label>
+            <table id="objetivoGeneral" class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Id</th>
+                        <td>objetivo general - proposito del proyecto</td>
+                        <td>resultados finales</td>
+                        <td>medios de verificacion</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>atributo</td>
+                        <td>competidor 1</td>
+                        <td>competidor 2</td>
+                    </tr>   
+                </tbody>
+            </table>
+            <label for="objetivoEspecifico">Objetivo Especifico</label>
+            <table id="objetivoEspecifico" class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Id</th>
+                        <td>objetivo específico - componentes</td>
+                        <td>resultados intermedios</td>
+                        <td>medios de verificacion</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>atributo</td>
+                        <td>competidor 1</td>
+                        <td>competidor 2</td>
+                    </tr>   
+                </tbody>
+            </table>
+        <h6>C.4.2.Cronograma de actividades</h6>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Id</th>
+                        <td>actividad</td>
+                        <td>unidad de medida</td>
+                        <td>meta fisica</td>
+                        <td>año 1</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>atributo</td>
+                        <td>competidor 1</td>
+                        <td>competidor 2</td>
+                        <td>año 1</td>
+                    </tr>   
+                </tbody>
+            </table>
+        <h3>C.5 Descripción de la Metodología</h3>
+            <div class="form-group">
+                <label for="planMetodologico">C.5.1. Plan Metodológico del proyecto</label>
+                <textarea id="planMetodologico" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="planAdjunto">Adjunto Plan Metodológico</label>
+                <textarea id="planAdjunto" class="form-control" rows="3"></textarea>
+            </div>
+        <h3>C.6. Propiedad Intelectual</h3>
+            <div class="form-group">
+                <label for="propiedadIntelectual">C.6.1 Propiedad Intelectua</label>
+                <textarea id="propiedadIntelectual" class="form-control" rows="3"></textarea>
+            </div>
+        <h3>C.7 Impactos Esperados</h3>
+            <div class="form-group">
+                <label for="impactosEconomicos">C.7.1 Impactos económicos</label>
+                <textarea id="impactosEconomicos" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="impactosSociales">C.7.2 Impactos sociales</label>
+                <textarea id="impactosSociales" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="impactosEnLaFormacion">C.7.3 Impactos en la formación de cadenas productivas o clústeres y otras externalidades</label>
+                <textarea id="impactosEnLaFormacion" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pontencialidad">C.7.4 Potencialidad de ser replicado por empresas similares</label>
+                <textarea id="pontencialidad" class="form-control" rows="3"></textarea>
+            </div><div class="form-group">
+                <label for="impactosDeLaTecnologia">C.7.5 Impactos en Tecnología</label>
+                <textarea id="impactosDeLaTecnologia" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="impactosAmbientales">C.7.6 Impactos ambientales</label>
+                <textarea id="impactosAmbientales" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="medidasDeMitigacion">C.7.7 Medidas de mitigación para los impactos ambientales identificados como negativos y permanentes (o temporales)</label>
+                <textarea id="medidasDeMitigacion" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="impactosEnLaEmpresa">C.7.8 Impactos en la capacidad interna de innovación de la empresa</label>
+                <textarea id="impactosEnLaEmpresa" class="form-control" rows="3"></textarea>
+            </div>
+        <h3>C.8. Recursos Necesarios</h3>
+            <label for="datosDelEquipoTecnico">datos del equipo tecnico</label>
+            <table id="datosDelEquipoTecnico" class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Id</th>
+                        <td>Es Investigador</td>
+                        <td>Nombre</td>
+                        <td>Ap. Paterno</td>
+                        <td>Ap. Materno</td>
+                        <td>Especialidad</td>
+                        <td>Función Técnica</td>
+                        <td>Porcentaje de Dedicación</td>
+                        <td>Investigador Principal</td>
+                        <td>Coordinador General</td>
+                        <td>Coordinador Administrativo</td>
+                        <td>Entidad a la que pertenecen</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Id</td>
+                        <td>Es Investigador</td>
+                        <td>Nombre</td>
+                        <td>Ap. Paterno</td>
+                        <td>Ap. Materno</td>
+                        <td>Especialidad</td>
+                        <td>Función Técnica</td>
+                        <td>Porcentaje de Dedicación</td>
+                        <td>Investigador Principal</td>
+                        <td>Coordinador General</td>
+                        <td>Coordinador Administrativo</td>
+                        <td>Entidad a la que pertenecen</td>
+                    </tr>   
+                </tbody>
+            </table>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
