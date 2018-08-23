@@ -1,0 +1,127 @@
+A - identificacion de entidades participante ==== grupo
+    A.1 - Datos generales del proyecto ==== grupo
+        A.1.1 - Titulo    ============> textarea
+        A.1.2 - Palabras Clave   ============> textarea
+        A.1.3 - area de innovacion   ============> tabla(id, area, sub-area, area tematica)
+        A.1.4 - actividad economica en la que se aplicara la innovacion   ============> tabla(id, area de aplicacion, sub area de aplicacion)
+        A.1.5 - localizacion del proyecto   ============> tabla(id, departamento, provincia, distrito, ubigeo)
+        A.1.6 - duracion del proyecto (meses)   ============> numero
+        A.1.7 - fecha estimada de inicio del proyecto   ============> fecha
+        A.1.8 - Datos del coordinador general del proyecto ==== grupo
+            tipo de documento   ============> opcion
+            numero de documento   ============> numero
+            nombres y apellidos   ============> text
+            correo electronico   ============> email
+            fecha de nacimiento   ============> fecha
+            sexo   ============> opcion
+            RUC   ============> numero 
+            telefono   ============> numero
+            celular   ============> numero
+        A.1.9 - datos del coordinador administrativo del proyecto   ==== grupo 
+            tipo de documento   ============> opcion
+            numero de documento   ============> numero
+            nombres y apellidos   ============> text
+            correo electronico   ============> email
+            fecha de nacimiento   ============> fecha
+            sexo   ============> opcion
+            RUC   ============> numero 
+            telefono   ============> numero
+            celular   ============> numero
+    A.2 - Datos de las entidades participantes ==== grupo
+        A.2.1 - Entidad solicitante   ==== grupo
+            tipo de entidad   ============> opcion
+            tamaño de la empresa   ============> opcion
+            ruc y razon social   ============> text
+            ciiu   ============> opcion
+            direccion   ============> text
+            fecha de constitucion   ============> fecha
+            inicio de actividades   ============> fecha
+            numero de partida   ============> numero
+            oficina registral   ============> opcion
+            telefono / celular   ============> numero
+            correo electronico   ============> email
+            pagina web   ============> text 
+            ventas del año 2016   ============> numero
+            ventas del año 2017   ============> numero
+            nro de trabajadores   ============> numero
+            representante legal   ==== grupo 
+                tipo de documento   ============> opcion
+                numero de documento   ============> numero
+                nombres y apellidos   ============> text
+                sexo   ============> opcion
+                correo electronico   ============> email
+                telefono   ============> numero
+                RUC   ============> numero
+            indicar los productos (bienes y servicios) que en la actualidad comercializa   ============> textarea
+            Principales actividades, investigaciones, tecnologias relacionadas con el proyecto   ============> textarea
+            infraestructura fisica, equipamiento, tecnologias y procesos de la entidad solicitante   ============> textarea
+        A.2.2 - entidades asociadas   ============> tabla(id, ruc, nombre de la entidad, tipo de entidad, tipo de relacion, nombre completo)
+    A.3 - antecedentes de las entidades participantes   ==== grupo
+        A.3.1 - Principales actividades, investigaciones, tecnologias relacionadas con el proyecto   ============> tabla(id, nombre de la entidad, principales actividades y experiencia)
+        A.3.2 - Principales actividades, investigaciones, tecnologias y procesos que se aportaran al proyecto   ============> tabla(id, nombre de la entidad, principal infraestructura fisica)
+        A.3.3 - Principales aspectos que evidencien que la entidad se beneficiara con los resultados   ============> tabla(id, nombre de la entidad, justificacion para contar con la entidad)
+        A.3.4 - Fondos recibidos por alguna entidad del estado hacia la entidad solicitante   ============> tabla(id, nombre del otorgante, nombre del proyecto, monto, fecha de reposicion, fecha de finalizacion)
+        A.3.5 - Situacion de los proyectos financiados por innovate peru ( PIMEN, PIPEI, PITEI, PIPEA )   ============> tabla(id, contrato, titulo, aporte RNR, fecha inicio, fecha fin, estado, situacion actual)
+B - mercado _ competitividad empresarial ==== grupo 
+    B.1 - situacion actual de mercado del producto y/o servicio y de la empresarial ==== grupo
+        B.1.1 - situacion del entorno empresarial ===========> textarea
+        B.1.2 - situacion actual de la empresa respecto a su negocio y participacion en el mercado ===========> textarea
+    B.2 - Identificación del mercado potencial de la innovación y sustentación de la oportunidad comercial ==== grupo
+        B.2.1 Identificación del mercado potencial, donde se implementará a escala comercial los resultados del proyecto ===========> textarea
+        B.2.2 Competidores ===========> textarea
+    B.3 Modelo de negocio y la estrategia empresarial para el ingreso de la innovación al mercado ==== grupo
+        B.3.1 Modelo de negocio y la estrategia empresarial para el ingreso de la innovación al mercado ===========> textarea
+    B.4 Capacidad financiera para el escalamiento de los resultados esperados y la implantación ===========> textarea
+        B.4.1 Capacidad financiera para el escalamiento de los resultados esperados y la implantación ===========> textarea
+    B.5 Rentabilidad Económica y Financiera ==== grupo
+        B.5.1 Rentabilidad Económica y Financiera ===========> textarea
+    B.6 Archivos Adjuntos para la Sección B: Mercado ==== grupo
+        B.6.1 Adjuntar un archivo obligatorio con el flujo de caja proyectado ===========> attachment
+C - memoria tecnica ==== grupo
+    C.1 Diagnóstico ==== grupo
+        C.1.1 Problema identificado que limita la competitividad de la empresa u oportunidad de mercado ===========> textarea
+        C.1.2 Consecuencias o efectos ===========> textarea
+        C.1.3 Causas ===========> textarea
+        C.1.4. Tipo de innovación y descripción} ===========> textarea
+            Tipo de Innovación} ===========> textarea
+                1. Describir la función que realizará la innovación ===========> textarea
+                2. Describir la tecnología que se empleará para construir la innovación ===========> textarea
+                3. Describa la forma en que se entregará el resultado ===========> textarea
+    C.2 Descripción de las características de producto o proceso de la innovación presentada ======> tabla(id, atributo,competidor 1, competidor 2, competidor 3 propuesta de proyecto)
+    C.3 Antecedentes e Investigaciones recientes sobre la innovación a desarrollar ==== grupo
+        C.3.1 Antecedentes e investigaciones recientes sobre el problema a resolver ========> textarea
+        C.3.2 Indicar si el conocimiento o la tecnología que se utilizará son de uso libre o restringido ========> textarea
+    C.4 Objetivos ==== grupo
+        C.4.1 Objetivo general, específicos y resultados del proyecto ==== grupo
+            objetivo específico ======> tabla(id, objetivo general - proposito del proyecto, resultados finales, medios de verificacion)
+            objetivo general ======> tabla(id, objetivo específico - componentes, resultados intermedios, medios de verificacion)
+        C.4.2.Cronograma de actividades ========> tabla(id, actividad, unidad de medida, meta fisica, año 1)
+    C.5 Descripción de la Metodología ==== grupo
+        C.5.1. Plan Metodológico del proyecto ===========> textarea
+            Adjunto Plan Metodológico ========> attachment
+    C.6. Propiedad Intelectual ==== grupo
+        C.6.1 Propiedad Intelectua ===========> textarea
+    C.7 Impactos Esperados ==== grupo
+        C.7.1 Impactos económicos ===========> textarea
+        C.7.2 Impactos sociales ===========> textarea
+        C.7.3 Impactos en la formación de cadenas productivas o clústeres y otras externalidades ===========> textarea
+        C.7.4 Potencialidad de ser replicado por empresas similares ===========> textarea
+        C.7.5 Impactos en Tecnología ===========> textarea
+        C.7.6 Impactos ambientales ===========> textarea
+        C.7.7 Medidas de mitigación para los impactos ambientales identificados como negativos y permanentes (o temporales) ===========> textarea
+        C.7.8 Impactos en la capacidad interna de innovación de la empresa ===========> textarea
+    C.8. Recursos Necesarios ==== grupo
+        datos del equipo tecnico
+D - presupuesto del proyecto
+    D.1 Moneda y Presupuesto del Proyecto
+        Moneda del Proyecto
+            D.1.1 CUADRO Nº 1: Equipos y Bienes duraderos
+            D.1.2 CUADRO Nº 2: Honorarios de los Recursos Humanos - Valorización del equipo Técnico
+            D.1.3 CUADRO Nº 3: Consultorías
+            D.1.4 CUADRO Nº 4: Servicios de terceros
+            D.1.5 CUADRO Nº 5: Pasajes y viáticos
+            D.1.6 CUADRO Nº 6: Materiales e insumos
+            D.1.7 CUADRO Nº 7: Otros gastos elegibles
+            D.1.8 CUADRO Nº8: Gastos de gestión
+            D.1.9 Equipo Formulador del Proyecto
+            
