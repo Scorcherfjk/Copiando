@@ -1,0 +1,1268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container" id="A">
+            <br>
+            <div class="card rounded border-secondary">
+
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    A.1 - Datos generales del proyecto
+                </h5>
+                <div class="card-body">
+
+
+                    <div class="form-group">
+                        <label class="h6" for="titulo">A.1.1 - Titulo<span class="text-danger"> (*)</span></label>
+                        <input id="titulo" class="form-control" type="textarea">
+                    </div>
+                    <div class="form-group">
+                        <label class="h6" for="palabrasClave">A.1.2 - Palabras clave<span class="text-danger"> (*)</span></label>
+                        <input id="palabrasClave" class="form-control" type="text">
+                    </div>
+                    <h6>A.1.3 - Area de innovacion</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Area</th>
+                                    <th>Sub-area</th>
+                                    <th>Area tematica</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tecnologia</td>
+                                    <td>Sistemas</td>
+                                    <td>Informatica</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>A.1.4 - actividad economica en la que se aplicara la innovacion</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Area de aplicacion</th>
+                                    <th>Sub-area de aplicacion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tecnologia</td>
+                                    <td>Sistemas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>A.1.5 - localizacion del proyecto</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Departamento</th>
+                                    <th>Provincia</th>
+                                    <th>Distrito</th>
+                                    <th>Ubigeo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                    <td>Miraflores</td>
+                                    <td>150122</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="form-group">
+                        <label class="h6" for="duracionDelProyecto">A.1.6 - Duracion del proyecto<span class="text-danger">
+                                (*)</span></label>
+                        <input id="duracionDelProyecto" class="form-control" type="number">
+                    </div>
+                    <div class="form-group">
+                        <label class="h6" for="fechaEstimadaDeInicioDelProyecto">A.1.7 - Fecha estimada de inicio del proyecto
+                            <span class="text-danger"> (*)</span>
+                        </label>
+                        <input id="fechaEstimadaDeInicioDelProyecto" class="form-control" type="date">
+                    </div>
+                    <h6>A.1.8 - Datos del coordinador general del proyecto</h6>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgptipoDeDocumento">Tipo de documento<span class="text-danger"> (*)</span></label>
+                                <input id="cgptipoDeDocumento" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpnumeroDeDocumento">Numero de documento<span class="text-danger"> (*)</span></label>
+                                <input id="cgpnumeroDeDocumento" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpruc">RUC</label>
+                                <input id="cgpruc" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpnombresYApellidos">Nombres y Apellidos<span class="text-danger"> (*)</span></label>
+                                <input id="cgpnombresYApellidos" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpfechaDeNacimiento">fecha de nacimiento<span class="text-danger"> (*)</span></label>
+                                <input id="cgpfechaDeNacimiento" class="form-control" type="date">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpsexo">sexo<span class="text-danger"> (*)</span></label>
+                                <input id="cgpsexo" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpemail">Correo electronico<span class="text-danger"> (*)</span></label>
+                                <input id="cgpemail" class="form-control" type="email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgptelefono">Telefono</label>
+                                <input id="cgptelefono" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="cgpcelular">Celular<span class="text-danger"> (*)</span></label>
+                                <input id="cgpcelular" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <h6>A.1.9 - Datos del coordinador administrativo del proyecto</h6>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="captipoDeDocumento">Tipo de documento<span class="text-danger"> (*)</span></label>
+                                <input id="captipoDeDocumento" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capnumeroDeDocumento">Numero de documento<span class="text-danger"> (*)</span></label>
+                                <input id="capnumeroDeDocumento" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capruc">RUC</label>
+                                <input id="capruc" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capnombresYApellidos">Nombres y Apellidos<span class="text-danger"> (*)</span></label>
+                                <input id="capnombresYApellidos" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capfechaDeNacimiento">fecha de nacimiento<span class="text-danger"> (*)</span></label>
+                                <input id="capfechaDeNacimiento" class="form-control" type="date">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capsexo">sexo<span class="text-danger"> (*)</span></label>
+                                <input id="capsexo" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capemail">Correo electronico<span class="text-danger"> (*)</span></label>
+                                <input id="capemail" class="form-control" type="email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="captelefono">Telefono</label>
+                                <input id="captelefono" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="capcelular">Celular<span class="text-danger"> (*)</span></label>
+                                <input id="capcelular" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    A.2 - Datos de las entidades participantes
+                </h5>
+                <div class="card-body">
+                    <h6>A.2.1 - Entidad solicitante</h6>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="estipoDeEntidad">Tipo de entidad<span class="text-danger"> (*)</span></label>
+                                <input id="estipoDeEntidad" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="estamanoDeLaEmpresa">Tamaño de la empresa<span class="text-danger"> (*)</span></label>
+                                <input id="estamanoDeLaEmpresa" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="esnroDeTrabajadores">Numero de Trabajadores<span class="text-danger"> (*)</span></label>
+                                <input id="esnroDeTrabajadores" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="esrucRazonSocial">RUC y Razon social<span class="text-danger"> (*)</span></label>
+                        <input id="esrucRazonSocial" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="esciiu">CIIU<span class="text-danger"> (*)</span></label>
+                        <input id="esciiu" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="esdireccion">Direccion<span class="text-danger"> (*)</span></label>
+                        <input id="esdireccion" class="form-control" type="text">
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="esfechaDeConstitucion">Fecha de Constitucion<span class="text-danger"> (*)</span></label>
+                                <input id="esfechaDeConstitucion" class="form-control" type="date">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="esinicioDeActividades">Inicio de actividades<span class="text-danger"> (*)</span></label>
+                                <input id="esinicioDeActividades" class="form-control" type="date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="esnumeroDePartida">Numero de partida</label>
+                                <input id="esnumeroDePartida" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="esoficinaRegistral">Oficina registral</label>
+                                <input id="esoficinaRegistral" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="estelefonoCelular">Telefono / Celular<span class="text-danger"> (*)</span></label>
+                                <input id="estelefonoCelular" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="esemail">Correo electronico<span class="text-danger"> (*)</span></label>
+                                <input id="esemail" class="form-control" type="email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="espaginaWeb">Pagina Web</label>
+                                <input id="espaginaWeb" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="esventas2016">Ventas del año 2016<span class="text-danger"> (*)</span></label>
+                                <input id="esventas2016" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="esventas2017">Ventas del año 2017<span class="text-danger"> (*)</span></label>
+                                <input id="esventas2017" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Representante legal</h6>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="rptipoDeDocumento">Tipo de documento<span class="text-danger"> (*)</span></label>
+                                <input id="rptipoDeDocumento" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="rpnumeroDeDocumento">Numero de documento<span class="text-danger"> (*)</span></label>
+                                <input id="rpnumeroDeDocumento" class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="form-group">
+                                <label for="rpruc">RUC</label>
+                                <input id="rpruc" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <label for="rpnombresYApellidos">Nombres y Apellidos<span class="text-danger"> (*)</span></label>
+                                <input id="rpnombresYApellidos" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="rpsexo">sexo<span class="text-danger"> (*)</span></label>
+                                <input id="rpsexo" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="rpemail">Correo electronico<span class="text-danger"> (*)</span></label>
+                                <input id="rpemail" class="form-control" type="email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="rptelefono">Telefonos<span class="text-danger"> (*)</span></label>
+                                <input id="rptelefono" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="rpproductosComerciales">Indicar los productos ( Bienes y Servicios ) que en en la actualidad
+                            comercializa
+                            <span class="text-danger"> (*)</span>
+                        </label>
+                        <textarea id="rpproductosComerciales" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="rpactividadesRelacionadas">Principales actividades, investigaciones, tecnologias relacionadas
+                            con el proyecto<span class="text-danger"> (*)</span></label>
+                        <textarea id="rpactividadesRelacionadas" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="rpinfraestructuraDelSolicitante">Infraestructura fisica, equipamiento, tecnologias y
+                            procesos de la entidad solicitante<span class="text-danger"> (*)</span></label>
+                        <textarea id="rpinfraestructuraDelSolicitante" class="form-control" rows="3"></textarea>
+                    </div>
+                    <h6> A.2.2 - entidades asociadas</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>ruc</th>
+                                    <th>nombre de la entidad</th>
+                                    <th>tipo de entidad</th>
+                                    <th>tipo de relacion</th>
+                                    <th>nombre completo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                    <td>Miraflores</td>
+                                    <td>150122</td>
+                                    <td>Ubigeo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    A.3 - antecedentes de las entidades participantes
+                </h5>
+                <div class="card-body">
+                    <h6>A.3.1 - Principales actividades, investigaciones, tecnologias relacionadas con el proyecto</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>nombre de la entidad</th>
+                                    <th>principales actividades y experiencia</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>A.3.2 - Principales actividades, investigaciones, tecnologias y procesos que se aportaran al proyecto
+                    </h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>nombre de la entidad</th>
+                                    <th>principal infraestructura fisica</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>A.3.3 - Principales aspectos que evidencien que la entidad se beneficiara con los resultados</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>nombre de la entidad</th>
+                                    <th>justificacion para contar con la entidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>A.3.4 - Fondos recibidos por alguna entidad del estado hacia la entidad solicitante</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>nombre del otorgante</th>
+                                    <th>nombre del proyecto</th>
+                                    <th>monto</th>
+                                    <th>fecha de reposicion</th>
+                                    <th>fecha de finalizacion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                    <td>monto</td>
+                                    <td>fecha de reposicion</td>
+                                    <td>fecha de finalizacion</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>A.3.5 - Situacion de los proyectos financiados por innovate peru ( PIMEN, PIPEI, PITEI, PIPEA )
+                    </h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>contrato</th>
+                                    <th>titulo</th>
+                                    <th>aporte RNR</th>
+                                    <th>fecha inicio</th>
+                                    <th>fecha fin</th>
+                                    <th>estado</th>
+                                    <th>situacion actual</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lima</td>
+                                    <td>Lima</td>
+                                    <td>monto</td>
+                                    <td>fecha de reposicion</td>
+                                    <td>fecha de finalizacion</td>
+                                    <td>estado</td>
+                                    <td>situacion actual</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" id="B">
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">B.1 - situacion actual de mercado del producto
+                    y/o servicio y de la empresarial</h5>
+                <div class="card-body">
+
+                    <div class="form-group">
+                        <label for="entornoEmpresarial">B.1.1 - situacion del entorno empresarial<span class="text-danger">
+                                (*)</span></label>
+                        <textarea id="entornoEmpresarial" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="situacionActual">B.1.2 - situacion actual de la empresa respecto a su negocio y participacion
+                            en el mercado<span class="text-danger"> (*)</span></label>
+                        <textarea id="situacionActual" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">B.2 - Identificación del mercado potencial de
+                    la innovación y sustentación de la oportunidad comercial</h5>
+                <div class="card-body">
+
+                    <div class="form-group">
+                        <label for="identificacionDelMercado">B.2.1 Identificación del mercado potencial, donde se implementará
+                            a escala comercial los resultados del proyecto<span class="text-danger"> (*)</span></label>
+                        <textarea id="identificacionDelMercado" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="competidores">B.2.2 Competidores<span class="text-danger"> (*)</span></label>
+                        <textarea id="competidores" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">B.3 Modelo de negocio y la estrategia empresarial
+                    para el ingreso de la innovación al mercado</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="modeloDeNegocio">B.3.1 Modelo de negocio y la estrategia empresarial para el ingreso
+                            de la innovación al mercado<span class="text-danger"> (*)</span></label>
+                        <textarea id="modeloDeNegocio" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    B.4 Capacidad financiera para el escalamiento de los resultados esperados y la implantación
+                </h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="capacidadFinanciera">B.4.1 Capacidad financiera para el escalamiento de los resultados
+                            esperados y la implantación<span class="text-danger"> (*)</span></label>
+                        <textarea id="capacidadFinanciera" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    B.5 Rentabilidad Económica y Financiera
+                </h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="rentabilidadEconomica">B.5.1 Rentabilidad Económica y Financiera<span class="text-danger">
+                                (*)</span></label>
+                        <textarea id="rentabilidadEconomica" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    B.6 Archivos Adjuntos para la Sección B: Mercado
+                </h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="flujoDeCaja">B.6.1 Adjuntar un archivo obligatorio con el flujo de caja proyectado<span
+                                class="text-danger"> (*)</span></label>
+                        <br>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="flujoDeCaja" name="flujoDeCaja" required>
+                            <label class="custom-file-label" for="flujoDeCaja">Elige Un Archivo</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="C">
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.1 Diagnóstico</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="problemaIdentificado">C.1.1 Problema identificado que limita la competitividad de la
+                            empresa u oportunidad de mercado<span class="text-danger"> (*)</span></label>
+                        <textarea id="problemaIdentificado" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="consecuenciasEfectos">C.1.2 Consecuencias o efectos<span class="text-danger"> (*)</span></label>
+                        <textarea id="consecuenciasEfectos" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="causas">C.1.3 Causas<span class="text-danger"> (*)</span></label>
+                        <textarea id="causas" class="form-control" rows="3"></textarea>
+                    </div>
+                    <h6>C.1.4. Tipo de innovación y descripción</h6>
+                    <div class="form-group">
+                        <label for="tipoDeInnovación">Tipo de Innovación<span class="text-danger"> (*)</span></label>
+                        <input id="tipoDeInnovación" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="describirFuncion">1. Describir la función que realizará la innovación<span class="text-danger">
+                                (*)</span></label>
+                        <textarea id="describirFuncion" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="describirTecnologia">2. Describir la tecnología que se empleará para construir la innovación
+                            <span class="text-danger"> (*)</span>
+                        </label>
+                        <textarea id="describirTecnologia" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="describirForma">3. Describa la forma en que se entregará el resultado<span class="text-danger">
+                                (*)</span></label>
+                        <textarea id="describirForma" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.2 Descripción de las características de producto
+                    o proceso de la innovación presentada
+                </h5>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>atributo</th>
+                                    <th>competidor 1</th>
+                                    <th>competidor 2</th>
+                                    <th>competidor 3</th>
+                                    <th>propuesta de proyecto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>atributo</td>
+                                    <td>competidor 1</td>
+                                    <td>competidor 2</td>
+                                    <td>competidor 3</td>
+                                    <td>propuesta de proyecto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.3 Antecedentes e Investigaciones recientes
+                    sobre la innovación a desarrollar</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="antecedentes">C.3.1 Antecedentes e investigaciones recientes sobre el problema a resolver
+                            <span class="text-danger"> (*)</span>
+                        </label>
+                        <textarea id="antecedentes" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="libreRestrigido">C.3.2 Indicar si el conocimiento o la tecnología que se utilizará son
+                            de uso libre o restringido<span class="text-danger"> (*)</span></label>
+                        <textarea id="libreRestrigido" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.4 Objetivos</h5>
+                <div class="card-body">
+                    <h6>C.4.1 Objetivo general, específicos y resultados del proyecto</h6>
+                    <label for="objetivoGeneral">Objetivo General</label>
+                    <div class="table-responsive">
+                        <table id="objetivoGeneral" class="table table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>objetivo general - proposito del proyecto</th>
+                                    <th>resultados finales</th>
+                                    <th>medios de verificacion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>atributo</td>
+                                    <td>competidor 1</td>
+                                    <td>competidor 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <label for="objetivoEspecifico">Objetivo Especifico</label>
+                    <div class="table-responsive">
+                        <table id="objetivoEspecifico" class="table table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>objetivo específico - componentes</th>
+                                    <th>resultados intermedios</th>
+                                    <th>medios de verificacion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>atributo</td>
+                                    <td>competidor 1</td>
+                                    <td>competidor 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>C.4.2.Cronograma de actividades</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>actividad</th>
+                                    <th>unidad de medida</th>
+                                    <th>meta fisica</th>
+                                    <th>año 1</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>atributo</td>
+                                    <td>competidor 1</td>
+                                    <td>competidor 2</td>
+                                    <td>año 1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.5 Descripción de la Metodología</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="planMetodologico">C.5.1. Plan Metodológico del proyecto<span class="text-danger"> (*)</span></label>
+                        <textarea id="planMetodologico" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="planAdjunto">Adjunto Plan Metodológico<span class="text-danger"> (*)</span></label>
+                        <br>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="planAdjunto" name="flujoDeCaja">
+                            <label class="custom-file-label" for="planAdjunto">Elige Un Archivo</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.6. Propiedad Intelectual</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="propiedadIntelectual">C.6.1 Propiedad Intelectual<span class="text-danger"> (*)</span></label>
+                        <textarea id="propiedadIntelectual" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.7 Impactos Esperados</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="impactosEconomicos">C.7.1 Impactos económicos<span class="text-danger"> (*)</span></label>
+                        <textarea id="impactosEconomicos" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="impactosSociales">C.7.2 Impactos sociales<span class="text-danger"> (*)</span></label>
+                        <textarea id="impactosSociales" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="impactosEnLaFormacion">C.7.3 Impactos en la formación de cadenas productivas o clústeres
+                            y otras externalidades<span class="text-danger"> (*)</span></label>
+                        <textarea id="impactosEnLaFormacion" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="pontencialidad">C.7.4 Potencialidad de ser replicado por empresas similares<span class="text-danger">
+                                (*)</span></label>
+                        <textarea id="pontencialidad" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="impactosDeLaTecnologia">C.7.5 Impactos en Tecnología<span class="text-danger"> (*)</span></label>
+                        <textarea id="impactosDeLaTecnologia" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="impactosAmbientales">C.7.6 Impactos ambientales<span class="text-danger"> (*)</span></label>
+                        <textarea id="impactosAmbientales" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="medidasDeMitigacion">C.7.7 Medidas de mitigación para los impactos ambientales identificados
+                            como negativos y permanentes (o temporales)<span class="text-danger"> (*)</span></label>
+                        <textarea id="medidasDeMitigacion" class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="impactosEnLaEmpresa">C.7.8 Impactos en la capacidad interna de innovación de la empresa<span
+                                class="text-danger"> (*)</span></label>
+                        <textarea id="impactosEnLaEmpresa" class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">C.8. Recursos Necesarios</h5>
+                <div class="card-body">
+
+                    <label for="datosDelEquipoTecnico">datos del equipo tecnico</label>
+                    <div class="table-responsive">
+                        <table id="datosDelEquipoTecnico" class="table table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Es Investigador</th>
+                                    <th>Nombre</th>
+                                    <th>Ap. Paterno</th>
+                                    <th>Ap. Materno</th>
+                                    <th>Especialidad</th>
+                                    <th>Función Técnica</th>
+                                    <th>Porcentaje de Dedicación</th>
+                                    <th>Investigador Principal</th>
+                                    <th>Coordinador General</th>
+                                    <th>Coordinador Administrativo</th>
+                                    <th>Entidad a la que pertenecen</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Id</td>
+                                    <td>Es Investigador</td>
+                                    <td>Nombre</td>
+                                    <td>Ap. Paterno</td>
+                                    <td>Ap. Materno</td>
+                                    <td>Especialidad</td>
+                                    <td>Función Técnica</td>
+                                    <td>Porcentaje de Dedicación</td>
+                                    <td>Investigador Principal</td>
+                                    <td>Coordinador General</td>
+                                    <td>Coordinador Administrativo</td>
+                                    <td>Entidad a la que pertenecen</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="D">
+            <div class="card rounded border-secondary">
+                <h5 class="card-header text-capitalize bg-danger text-white">
+                    D.1 Moneda y Presupuesto del Proyecto
+                </h5>
+                <div class="card-body">
+                        <div class="form-group">
+                            <label for="monedaDelProyecto">Moneda del Proyecto<span class="text-danger"> (*)</span></label>
+                            <select id="monedaDelProyecto" class="form-control">
+                                <option value="0">Soles</option>
+                                <option value="1">Dolares</option>
+                            </select>
+                        </div>
+                    <h6>D.1.1 CUADRO Nº 1: Equipos y Bienes duraderos</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Valorizable </th>
+                                    <th>Equipos y Bienes duraderos </th>
+                                    <th>Especificación técnica </th>
+                                    <th>Proforma </th>
+                                    <th>Unidad de medida </th>
+                                    <th>Costo Unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento NO monetario </th>
+                                    <th>Entidad Aportante </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Valorizable </td>
+                                    <td>Equipos y Bienes duraderos </td>
+                                    <td>Especificación técnica </td>
+                                    <td>Proforma </td>
+                                    <td>Unidad de medida </td>
+                                    <td>Costo Unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento NO monetario </td>
+                                    <td>Entidad Aportante </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.2 CUADRO Nº 2: Honorarios de los Recursos Humanos - Valorización del equipo Técnico</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nombre </th>
+                                    <th>Entidad </th>
+                                    <th>Porcentaje de dedicación </th>
+                                    <th>Honorario mensual </th>
+                                    <th>No. Meses </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento no monetario </th>
+                                    <th>Entidad Aportante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Nombre </td>
+                                    <td>Entidad </td>
+                                    <td>Porcentaje de dedicación </td>
+                                    <td>Honorario mensual </td>
+                                    <td>No. Meses </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento no monetario </td>
+                                    <td>Entidad Aportante</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.3 CUADRO Nº 3: Consultorías</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Descripción </th>
+                                    <th>Unidad Medida </th>
+                                    <th>Costo unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento no monetario </th>
+                                    <th>Entidad Aportante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Descripción </td>
+                                    <td>Unidad Medida </td>
+                                    <td>Costo unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento no monetario </td>
+                                    <td>Entidad Aportante</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.4 CUADRO Nº 4: Servicios de terceros</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Descripción </th>
+                                    <th>Unidad de medida </th>
+                                    <th>Costo Unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento NO monetario </th>
+                                    <th>Entidad Aportante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Descripción </td>
+                                    <td>Unidad de medida </td>
+                                    <td>Costo Unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento NO monetario </td>
+                                    <td>Entidad Aportante</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.5 CUADRO Nº 5: Pasajes y viáticos</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Tipo </th>
+                                    <th>Tipo de viático </th>
+                                    <th>Tipo de Actividad </th>
+                                    <th>Destino </th>
+                                    <th>Descripción </th>
+                                    <th>Unidad de medida </th>
+                                    <th>Costo Unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento NO monetario </th>
+                                    <th>Entidad Aportante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tipo </td>
+                                    <td>Tipo de viático </td>
+                                    <td>Tipo de Actividad </td>
+                                    <td>Destino </td>
+                                    <td>Descripción </td>
+                                    <td>Unidad de medida </td>
+                                    <td>Costo Unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento NO monetario </td>
+                                    <td>Entidad Aportante</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.6 CUADRO Nº 6: Materiales e insumos</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Valorizable </th>
+                                    <th>Descripción </th>
+                                    <th>Especificación técnica </th>
+                                    <th>Proforma </th>
+                                    <th>Unidad Medida </th>
+                                    <th>Costo unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento no monetario </th>
+                                    <th>Entidad Aportante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Valorizable </td>
+                                    <td>Descripción </td>
+                                    <td>Especificación técnica </td>
+                                    <td>Proforma </td>
+                                    <td>Unidad Medida </td>
+                                    <td>Costo unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento no monetario </td>
+                                    <td>Entidad Aportante</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.7 CUADRO Nº 7: Otros gastos elegibles</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Valorizable </th>
+                                    <th>Descripción </th>
+                                    <th>Unidad Medida </th>
+                                    <th>Costo unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento no monetario </th>
+                                    <th>Entidad Aportante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Valorizable </td>
+                                    <td>Descripción </td>
+                                    <td>Unidad Medida </td>
+                                    <td>Costo unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento no monetario </td>
+                                    <td>Entidad Aportante</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.8 CUADRO Nº8: Gastos de gestión</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Descripción </th>
+                                    <th>Unidad Medida </th>
+                                    <th>Costo unitario </th>
+                                    <th>Cantidad </th>
+                                    <th>Costo Total </th>
+                                    <th>RNR </th>
+                                    <th>Cofinanciamiento monetario </th>
+                                    <th>Cofinanciamiento no monetario </th>
+                                    <th>Entidad Aportante </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Descripción </td>
+                                    <td>Unidad Medida </td>
+                                    <td>Costo unitario </td>
+                                    <td>Cantidad </td>
+                                    <td>Costo Total </td>
+                                    <td>RNR </td>
+                                    <td>Cofinanciamiento monetario </td>
+                                    <td>Cofinanciamiento no monetario </td>
+                                    <td>Entidad Aportante </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h6>D.1.9 Equipo Formulador del Proyecto</h6>
+                    <div class="table-responsive">
+                        <table class="table  table-bordered table-hover">
+                            <thead class="thead-light text-capitalize">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Tipo de Documento </th>
+                                    <th>Número de Documento </th>
+                                    <th>Nombres </th>
+                                    <th>Apellidos </th>
+                                    <th>Correo </th>
+                                    <th>Teléfono </th>
+                                    <th>Celular </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tipo de Documento </td>
+                                    <td>Número de Documento </td>
+                                    <td>Nombres </td>
+                                    <td>Apellidos </td>
+                                    <td>Correo </td>
+                                    <td>Teléfono </td>
+                                    <td>Celular </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

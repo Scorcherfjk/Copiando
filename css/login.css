@@ -1,0 +1,123 @@
+/*OACD -- 16/06/2014
+Creacion de la hoja de estilos utilizada en la vista Login.jspx*/
+
+#TblPF tr:nth-child(odd) {
+   			background-color: #ffffff;
+   			color:#000000;
+		}
+		
+#TblPF tr:nth-child(even) {
+   			background-color: #CCC;
+   			color:#000000;
+		}
+		
+.txt2 {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.txt2 a:hover {
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	text-shadow: 1px 1px 8px #575757;
+	text-decoration: underline;
+}
+.txt2 a {
+	text-decoration: none;
+	color: #5e5f5e !important;
+	font-size: 14px;
+	font-weight: normal;
+	text-shadow: 1px 1px 8px #fff;
+}
+
+#content {
+	padding-bottom: 31px;
+	border: none;
+	margin: auto;
+	width: 977px;
+	min-height: 100%;
+	height: 100%;
+}
+
+table {
+	 border-collapse: collapse; 
+	 border-spacing: 0; 
+	 border-collapse: separate; 
+	 border-spacing: 2px; 
+	 border-color: gray; 
+ } 
+
+
+ #Acceder {
+	width: 100%; 
+	height: 40px; 
+	border-radius: 4px; 
+	font-size:16px; 
+	border:none;
+	background-color: #C9304C; 
+	color:white	
+} 
+
+a:active, a:hover {
+	outline: 0;
+}
+
+#res{
+	float: left;
+	margin-left: 3px;
+	font-family: 'pt_bold';
+	font-size: 11px;
+	color: #D8D8D8;
+	font-weight: normal;
+	height: 50px;
+	width: 70px;
+}
+
+.txt_form1 {
+	float: left;
+	margin-left: 3px;
+/* 	font-family: 'pt_bold'; */
+	font-size: 11px;
+	color: #848484;
+	font-weight: normal;
+	height: 50px;
+	width: 80px;
+	line-height: 11px;
+}
+
+ 
+ .txt_form {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.txt_form1:hover {
+	text-decoration: underline;
+	color: #000000;
+	
+}
+
+.realperson-challenge {
+	display: inline-block;
+	float: left;
+	padding-left: 35px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.realperson-challenge .realperson-regen {
+	color: orangered;
+}
+
+.realperson-text {
+	font-size: 7px;
+	letter-spacing: -2px;
+	line-height: 3px;
+}
+
+td.label-error {
+	height: 15px;
+	text-align: center;
+}
